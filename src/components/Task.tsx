@@ -1,17 +1,5 @@
 import React from "react";
-
-export enum TaskState {
-  TASK_INBOX = "TASK_INBOX",
-  TASK_PINNED = "TASK_PINNED",
-  TASK_ARCHIVED = "TASK_ARCHIVED",
-}
-
-export interface TaskModel {
-  id: number;
-  title: string;
-  state: TaskState;
-  updatedAt?: Date;
-}
+import { TaskModel, TaskState } from "../Models";
 
 export interface TaskProps {
   task: TaskModel;

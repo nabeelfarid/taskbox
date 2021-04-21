@@ -1,6 +1,7 @@
 import { Meta, Story } from "@storybook/react";
 import React from "react";
-import { Task, TaskProps, TaskState, TaskModel } from "./Task";
+import { Task, TaskProps } from "./Task";
+import { TaskState, TaskModel } from "../Models";
 
 export default {
   component: Task,

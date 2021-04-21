@@ -3,7 +3,7 @@ import { Meta, Story } from "@storybook/react";
 
 import { TaskList, TaskListProps } from "./TaskList";
 import * as TaskStories from "./Task.stories";
-import { TaskModel, TaskState } from "./Task";
+import { TaskModel, TaskState } from "../Models";
 
 export default {
   component: TaskList,

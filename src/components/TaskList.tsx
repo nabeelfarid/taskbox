@@ -1,6 +1,7 @@
 import React from "react";
 
-import { Task, TaskModel, TaskState } from "./Task";
+import { Task } from "./Task";
+import { TaskModel, TaskState } from "../Models";
 
 export interface TaskListProps {
   loading: boolean;
