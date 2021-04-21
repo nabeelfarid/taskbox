@@ -17,9 +17,10 @@ export const Task: React.FC<TaskProps> = ({
       <label className="checkbox">
         <input
           type="checkbox"
-          defaultChecked={task.state === TaskState.TASK_ARCHIVED}
+          // defaultChecked={task.state === TaskState.TASK_ARCHIVED}
           disabled={true}
           name="checked"
+          checked={task.state === TaskState.TASK_ARCHIVED}
         />
         <span
           className="checkbox-custom"
@@ -37,6 +38,7 @@ export const Task: React.FC<TaskProps> = ({
 
       <div className="actions" onClick={(event) => event.stopPropagation()}>
         {task.state !== "TASK_ARCHIVED" && (
+          // eslint-disable-next-line jsx-a11y/anchor-is-valid
           <a onClick={() => onPinTask(task.id)}>
             <span className={`icon-star`} />
           </a>

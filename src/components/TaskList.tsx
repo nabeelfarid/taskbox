@@ -4,15 +4,15 @@ import { Task } from "./Task";
 import { TaskModel, TaskState } from "../Models";
 
 export interface TaskListProps {
-  loading: boolean;
+  loading?: boolean;
   tasks: TaskModel[];
   onPinTask: (id: number) => void;
   onArchiveTask: (id: number) => void;
 }
 
 export const TaskList: React.FC<TaskListProps> = ({
-  loading,
-  tasks,
+  loading = false,
+  tasks = [],
   onPinTask,
   onArchiveTask,
 }) => {
