@@ -33,6 +33,7 @@ export const Task: React.FC<TaskProps> = ({
           value={task.title}
           readOnly={true}
           placeholder="Input title"
+          style={{ background: "red" }}
         />
       </div>
 
