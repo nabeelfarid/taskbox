@@ -1,8 +1,6 @@
-# TaskBox With Story Book
+# TaskBox With Storybook
 
-Storybook URL: https://diaries-app.nabeelfarid.surge.sh (hosted on Chromatic)
-
-https://608071b56ca7760021231930-ylfiwdpdxh.chromatic.com/
+Taskbox [Storybook](https://608071b56ca7760021231930-ylfiwdpdxh.chromatic.com/) deployed on Chromatic via Github Workflow
 
 # Getting Started with Create React App
 
