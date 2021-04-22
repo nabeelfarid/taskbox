@@ -1,6 +1,6 @@
 # TaskBox With Storybook
 
-Taskbox [Storybook](https://608071b56ca7760021231930-ylfiwdpdxh.chromatic.com/) deployed on Chromatic via Github Workflow
+Taskbox [Storybook](https://608071b56ca7760021231930-amsmfmohns.chromatic.com/) deployed on Chromatic via Github Workflow
 
 # Getting Started with Create React App
 
